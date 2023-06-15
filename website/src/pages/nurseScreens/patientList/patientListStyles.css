@@ -1,0 +1,84 @@
+.navbar1 {
+  position: fixed;
+  flex-shrink: 0;
+}
+.patient-list-header {
+  width: 100%;
+}
+
+.container-patient-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  overflow: scroll;
+  
+}
+
+
+.table-patient-container {
+  height: 100%;
+  overflow:scroll;
+ 
+}
+
+.patient-list-table-container{
+  margin-left: 140px;
+  margin-right: 60px;
+  
+}
+
+
+
+/* .patient-search-bar {
+  margin-bottom: 10px;
+}
+
+.patient-search-bar input {
+  width: 100%;
+  padding: 8px;
+  font-size: 14px;
+}
+
+.empty-message {
+  text-align: center;
+  color: #fff;
+  padding: 12px;
+}
+
+
+.table-patient {
+  width: 100%;
+  background-color: #343a40;
+  color: #fff;
+}
+
+.table-patient th,
+.table-patient td {
+  padding: 12px;
+}
+
+.table-patient-dark th {
+  background-color: #343a40;
+  color: #fff;
+  border-color: #454d55;
+}
+
+.table-patient-dark td {
+  background-color: #454d55;
+}
+
+.table-patient-dark tbody + tbody {
+  border-color: #454d55;
+}
+
+.table-patient-dark.table-bordered {
+  border-color: #454d55;
+}
+
+.table-patient-dark.table-bordered th,
+.table-patient-dark.table-bordered td {
+  border-color: #454d55;
+} */
+

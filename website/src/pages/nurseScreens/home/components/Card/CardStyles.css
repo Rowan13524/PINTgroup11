@@ -1,0 +1,113 @@
+.card-container-holder {
+  width: 250px;
+  height: 300px;
+  margin: 10px;
+  perspective: 1100px;
+}
+
+.card-container {
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  cursor: pointer;
+  position: relative;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(30, 30, 30, 0.2);
+  transition: box-shadow 0.3s, transform 1s;
+  
+}
+
+.card-container.is-flipped {
+  transform: rotateY(180deg);
+}
+
+.card-face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border-radius: 8px;
+  background: #fff;
+}
+
+.front-card-container {
+ 
+  transform: rotateY(0deg);
+}
+
+.back-card-container {
+  transform: rotateY(180deg);
+}
+
+.card-container:hover {
+  box-shadow: 0 0 20px rgba(30, 30, 30, 0.5);
+}
+
+.card-container h1 {
+  text-align: center;
+  margin-top: 10px;
+}
+.card-container p{
+  margin-bottom: 20px;
+}
+/* .back .sensor-statistics-table {
+  position: absolute;
+  left: 50%;
+  margin-top: 10px;
+  transform: translateX(-50%);
+}
+
+.back .sensor-unit-col {
+  text-align: left;
+}
+
+.back .sensor-data-col {
+  text-align: center;
+  padding: 5px;
+  font-size: 16px;
+} */
+
+.card-container .card-face h1 {
+  cursor: pointer;
+}
+
+.card-container .card-face .button-flip {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  bottom: 3px;
+  right: 2px;
+  border-radius: 12px 0 12px 0;
+  background-color: #FF4B2B;
+}
+.card-container .card-face .button-flip .icon {
+  size: 30px;
+  position: absolute;
+  bottom: 1px;
+  top: 50%;
+  right: 50;
+  transform: translate(-50%, -50%);
+}
+
+.card-container .card-face .button-detail {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  bottom: 3px;
+  left: 2px;
+  border-radius: 0 12px 0 12px;
+  background-color: rgb(26, 26, 25);
+}
+.card-container .card-face .button-detail .icon {
+  position: absolute;
+  bottom: 1px;
+  top: 50%;
+  right: 50;
+  transform: translate(-50%, -50%);
+}
+
+.data-container {
+  max-height: 200px;
+  overflow: auto;
+}

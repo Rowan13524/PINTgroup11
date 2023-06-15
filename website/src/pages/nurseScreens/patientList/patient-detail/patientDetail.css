@@ -1,0 +1,41 @@
+.detail-navbar {
+    position: fixed;
+    flex-shrink: 0;
+  }
+  .detail-header {
+    width: 100%;
+  }
+
+  .container-patient-detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    overflow: scroll;
+    padding-bottom: 20px;
+  }
+  
+  .container-patient-detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .content-detail {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+  
+  .left-half {
+    width: 40%;
+    margin-left: 130px;
+  }
+  
+  .right-half {
+    width: 60%;
+    margin-left: 10px;
+    margin-right: 40px;
+  }
+  

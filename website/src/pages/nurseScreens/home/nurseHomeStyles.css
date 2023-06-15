@@ -1,0 +1,58 @@
+html, body {
+    height: 100%;
+    margin-top: 0px;
+    padding: 10px;
+  }
+
+  .container-nurse .navbar {
+    position: fixed;
+    flex-shrink: 0;
+  }
+
+  .container-nurse .nurse-dashboard-header {
+    width: 100%;
+  }
+  
+  .container-nurse {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    overflow: scroll;
+  }
+
+
+  .container-nurse {
+    display: flex;
+    flex-direction: column;
+  }
+ 
+  .container-nurse .content1 {
+    margin-left: 85px;
+    margin-right: 5px;
+    margin-top: 20px;
+  }
+  
+  .container-nurse .card-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    max-height: 650px;
+    overflow-y: auto;
+    border-radius: 8px;
+    box-shadow: 0 1px 1px rgba(30, 30, 30, 0.2);
+  }
+  
+  .container-nurse .today-schedule {
+    flex-basis: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding-left: 20px;
+  } 

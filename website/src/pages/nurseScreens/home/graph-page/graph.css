@@ -1,0 +1,23 @@
+.graoh-navbar {
+    position: fixed;
+    flex-shrink: 0;
+  }
+  .graph-header {
+    width: 100%;
+  }
+
+  .container-graph {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    overflow: scroll;
+  }
+  
+  .content-graph {
+    margin-left: 85px;
+    margin-right: 5px;
+    margin-top: 20px;
+    padding: auto;
+  }
